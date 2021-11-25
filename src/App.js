@@ -1,11 +1,20 @@
 import "./App.css";
-import Button from "@mui/material/Button";
+import Button from "./components/Button/Button";
+import Card from "./components/Card/Card";
+import Footer from "./components/Footer/Footer";
+import Hero from "./components/Hero/Hero";
+import Main from "./components/Main/Main";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
-      <Button variant="contained">Dugme</Button>
+      <Button />
+      <Card />
+      <Footer />
+      <Hero />
+      <Main />
+      <Navbar />
     </div>
   );
 }
