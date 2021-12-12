@@ -1,0 +1,29 @@
+/* .Navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  color: white;
+}
+.Hero {
+  background-image: url("../../images/Hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+} */
+.hero {
+  height: 100vh;
+  position: relative;
+}
+.heroText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-direction: column;
+}
+.heroText p {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}

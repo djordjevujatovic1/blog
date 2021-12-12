@@ -1,21 +1,21 @@
+import React from "react";
 import "./App.css";
-import Button from "./components/Button/Button";
-import Card from "./components/Card/Card";
-import Footer from "./components/Footer/Footer";
-import Hero from "./components/Hero/Hero";
-import Main from "./components/Main/Main";
-import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Bitcoin from "./components/Bitcoin/Bitcoin";
+import Tesla from "./components/Tesla/Tesla";
 
 function App() {
   return (
-    <div className="App">
-      <Button />
-      <Card />
-      <Footer />
-      <Hero />
-      <Main />
-      <Navbar />
-    </div>
+    <>
+      <Router>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/bitcoin" component={Bitcoin} />
+          <Route path="/tesla" component={Tesla} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 

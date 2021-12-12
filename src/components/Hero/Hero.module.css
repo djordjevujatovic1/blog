@@ -1,3 +1,17 @@
-.Hero {
-  background-color: cyan;
+.hero {
+  background-image: url("Books_New-e1611252343470.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.tekst {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  top: 50%;
 }
