@@ -3,8 +3,9 @@
   justify-content: flex-end;
   padding: 15px;
   color: white;
-}
-.Hero {
+} */
+
+/* .Hero {
   background-image: url("../../images/Hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -14,13 +15,17 @@
 .hero {
   height: 100vh;
   position: relative;
+  max-height: 720px;
+  overflow: hidden;
 }
 .heroText {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-  flex-direction: column;
+  color: white;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  padding-bottom: 10px;
 }
 .heroText p {
   color: #fff;

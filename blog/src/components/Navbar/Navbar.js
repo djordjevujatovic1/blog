@@ -41,32 +41,12 @@ const Navbar = () => {
   ];
 
   return (
-    <div className={styles.navContent}>
-      <div className={styles.navHeading}>
-        <a href="." className={styles.linkHolder}>
-          <div className={styles.navIcon}>
-            <i>{/* <FaVideo /> */}</i>
-            <h1 style={{ color: "#fff" }}>Video Catalog</h1>
-          </div>
-        </a>
-      </div>
-      <BrowserRouter>
-        <nav>
-          <nav className={styles.navBar}>
-            <ul>
-              {links.map((link) => {
-                return (
-                  <li key={link.id}>
-                    <NavLink to={link.path} activeClassName="active-link" exact>
-                      {link.text}
-                    </NavLink>
-                  </li>
-                );
-              })}
-            </ul>
-          </nav>
-        </nav>
-      </BrowserRouter>
+    <div className={styles.navbar1}>
+      <ul className={styles.ull}>
+        <li>VIDEOS</li>
+        <li>ABOUT</li>
+        <li>CONTACT</li>
+      </ul>
     </div>
   );
 };

@@ -1,8 +1,16 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
+import { Button } from "@mui/material";
+import styles from "./ButtonComponent.module.css";
 
 const ButtonComponent = () => {
-  return <Button variant="outline-primary">Primary</Button>;
+  return (
+    <div className={styles.content}>
+      <div className={styles.variant}>
+        <Button variant="outline">Primary</Button>
+      </div>
+    </div>
+  );
 };
 export default ButtonComponent;
 

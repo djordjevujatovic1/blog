@@ -5,7 +5,11 @@ import Navbar from "../Navbar/Navbar";
 const About = () => {
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar>
+        <div>
+          <h1>hellooooascafas</h1>
+        </div>
+      </Navbar>
     </div>
   );
 };

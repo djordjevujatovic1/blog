@@ -22,8 +22,8 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import Navbar from "../Navbar/Navbar";
-import Button from "../Button/Button";
-import Navvideo from "../video/wheat-field.mp4";
+import Video from "../Video/wheat-field.mp4";
+import ButtonComponent from "../Button/ButtonComponent";
 
 const Hero = () => {
   return (
@@ -44,7 +44,7 @@ const Hero = () => {
             zIndex: "-999",
           }}
         >
-          <source src={Navvideo} type="video/mp4" />
+          <source src={Video} type="video/mp4" />
         </video>
       </div>
       <div className={styles.heroText}>
@@ -52,7 +52,7 @@ const Hero = () => {
           Video Catalog is brought to you by TemplateMo. <br></br> This is a
           full-width video banner.
         </p>
-        <Button />
+        <ButtonComponent />
       </div>
     </div>
   );

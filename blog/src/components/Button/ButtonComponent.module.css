@@ -1,0 +1,23 @@
+.content {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 80%;
+}
+.variant {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  line-height: 45px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  text-decoration: none;
+}
+.variant:hover {
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+}
